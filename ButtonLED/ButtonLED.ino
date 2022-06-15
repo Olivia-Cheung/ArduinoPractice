@@ -2,27 +2,45 @@ const int LED = 13;
 const int BUTTON = 7; 
 
 int val = 0; 
-
+int oldVal = 0; 
+int state = 0; 
 
 void setup() {
-  // put your setup code here, to run once:
 
+//creates inputs and outputs
   pinMode(LED, OUTPUT);
   pinMode(BUTTON, INPUT); 
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  
+//read input value and store it
 val = digitalRead(BUTTON); 
 
-if(val == LOW){
+//checks if there was a transition
+if((val == HIGH)&& (oldVal == LOW)){
 
-  digitalWrite(LED, HIGH); 
+  state = 1- state; 
+  delay(10); 
+}
 
-}else{
+//helps with debouncing
+if((val  == LOW) && (oldVal == HIGH)){
+
+  delay(10);
+}
+
+//store val into oldVal since it will no longer be used
+oldVal = val; 
+
+if(state == 1){
+  digitalWrite(LED, HIGH);
+}
+
+else{
 
   digitalWrite(LED, LOW);
 }
+
 }
