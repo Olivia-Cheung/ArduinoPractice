@@ -7,6 +7,7 @@ So far I have the following programs:
 3. Spaceship Interface (a green LED light is always lit up but when a button is pressed, 2 red LED lights turn on and off)
 4. Love-O-Meter (a temperature sensor measures the heat of someone's finger and the red LED lights turn on or off depending the temperture measured)
 5. ColorChangingLamp* (an RGB LED light changes color based on which phototransistor is covered)
+6. MoodCue (using a servo and a knob in a potentiometer, the servo can move and point to the mood that the user is in)
 
 
 
