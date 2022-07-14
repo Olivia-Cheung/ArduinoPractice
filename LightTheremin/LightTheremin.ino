@@ -39,7 +39,7 @@ void loop() {
 //maps the sensor value to a range of pitches
   int pitch = map(sensorValue, sensorLow, sensorHigh, 50, 4000); 
 
-//plays the tone for 20 milliseconds on pin 8 and waits for a second
+//plays the tone for 20 milliseconds on pin 8 and waits for a bit
   tone(8, pitch, 20); 
   delay(10);
 
