@@ -9,7 +9,8 @@ So far I have the following programs:
 5. ColorChangingLamp* (an RGB LED light changes color based on which phototransistor is covered)
 6. MoodCue (using a servo and a knob in a potentiometer, the servo can move and point to the mood that the user is in)
 7. LightTheremin (uses a phototransistor that measures the light and based on how much light it picks up, the piezo will make     sound)
-8. KeyboardInstrument (piezo plays notes C, D, E, and F based on which programmed button is presse) 
+8. KeyboardInstrument (piezo plays notes C, D, E, and F based on which programmed button is pressed) 
+9. DigitalHourglass (modified to 6 seconds, led lights light up one by one every second that passes and turns off when the tilt sensor detects movement)
 
 
 
