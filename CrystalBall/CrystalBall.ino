@@ -47,22 +47,26 @@ if(switchState != prevSwitchState){
         break;
 
       case 2: 
-        lcd.print("Outlook good"); 
+        lcd.print("Certainly");
         break;
 
       case 3: 
-        lcd.print("Unsure");
+        lcd.print("Outlook good"); 
         break;
 
       case 4: 
-        lcd.print("Ask again");
+        lcd.print("Unsure");
         break;
 
       case 5: 
+        lcd.print("Ask again");
+        break;
+
+      case 6: 
         lcd.print("Doubtful"); 
         break;
 
-      case 6:
+      case 7:
         lcd.print("No"); 
         break;
     }
