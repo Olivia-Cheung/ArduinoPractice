@@ -15,7 +15,8 @@ So far I have the following programs:
 11. Crystal Ball (The liquid crystal display (LCD) screen will display the answer to a question when the tilt sensor is shaken. Additionally, a potentiometer can be used to adjust the brightness of the lcd screen)
 12. Knock Lock(A servo spins to the "unlock" position after the piezo detects 3 appropriate knocks. A button is used to reset the servo the "locked" position)
 13. ZoeTrope
-14. Touchy Feely Lamp(a red LED light turns on when the foil is pinched)
+14. TouchyFeelyLamp(a red LED light turns on when the foil is pinched)
+15. TweakTheLogo (using Processing, the background of a photo can change colors when a potentiometer is turned)
 
 
 
